@@ -156,7 +156,7 @@ public class Main {
                 for (int k = 0; k < 3; k++) {
                     visledok[i][f] += a[i][k] * b[k][f];
                 }//end of k loop
-                System.out.print(visledok[i][f] + " ");  //printing matrix element
+                System.out.print(visledok[i][f] + " ");
             }
             System.out.println();//new line
         }
